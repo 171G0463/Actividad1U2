@@ -1,0 +1,199 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\bg.png" />
+    <Content Remove="wwwroot\bg2.png" />
+    <Content Remove="wwwroot\clases\1.jpg" />
+    <Content Remove="wwwroot\clases\1.png" />
+    <Content Remove="wwwroot\clases\2.jpg" />
+    <Content Remove="wwwroot\clases\2.png" />
+    <Content Remove="wwwroot\clases\3.jpg" />
+    <Content Remove="wwwroot\clases\3.png" />
+    <Content Remove="wwwroot\clases\4.jpg" />
+    <Content Remove="wwwroot\clases\4.png" />
+    <Content Remove="wwwroot\clases\5.jpg" />
+    <Content Remove="wwwroot\clases\5.png" />
+    <Content Remove="wwwroot\especies\1.jpg" />
+    <Content Remove="wwwroot\especies\10.jpg" />
+    <Content Remove="wwwroot\especies\11.jpg" />
+    <Content Remove="wwwroot\especies\12.jpg" />
+    <Content Remove="wwwroot\especies\13.jpg" />
+    <Content Remove="wwwroot\especies\14.jpg" />
+    <Content Remove="wwwroot\especies\15.jpg" />
+    <Content Remove="wwwroot\especies\16.jpg" />
+    <Content Remove="wwwroot\especies\17.jpg" />
+    <Content Remove="wwwroot\especies\18.jpg" />
+    <Content Remove="wwwroot\especies\19.jpg" />
+    <Content Remove="wwwroot\especies\2.jpg" />
+    <Content Remove="wwwroot\especies\20.jpg" />
+    <Content Remove="wwwroot\especies\21.jpg" />
+    <Content Remove="wwwroot\especies\22.jpg" />
+    <Content Remove="wwwroot\especies\23.jpg" />
+    <Content Remove="wwwroot\especies\24.jpg" />
+    <Content Remove="wwwroot\especies\25.jpg" />
+    <Content Remove="wwwroot\especies\26.jpg" />
+    <Content Remove="wwwroot\especies\27.jpg" />
+    <Content Remove="wwwroot\especies\28.jpg" />
+    <Content Remove="wwwroot\especies\29.jpg" />
+    <Content Remove="wwwroot\especies\3.jpg" />
+    <Content Remove="wwwroot\especies\30.jpg" />
+    <Content Remove="wwwroot\especies\31.jpg" />
+    <Content Remove="wwwroot\especies\32.jpg" />
+    <Content Remove="wwwroot\especies\33.jpg" />
+    <Content Remove="wwwroot\especies\34.jpg" />
+    <Content Remove="wwwroot\especies\35.jpg" />
+    <Content Remove="wwwroot\especies\36.jpg" />
+    <Content Remove="wwwroot\especies\37.jpg" />
+    <Content Remove="wwwroot\especies\38.jpg" />
+    <Content Remove="wwwroot\especies\39.jpg" />
+    <Content Remove="wwwroot\especies\4.jpg" />
+    <Content Remove="wwwroot\especies\40.jpg" />
+    <Content Remove="wwwroot\especies\41.jpg" />
+    <Content Remove="wwwroot\especies\42.jpg" />
+    <Content Remove="wwwroot\especies\43.jpg" />
+    <Content Remove="wwwroot\especies\44.jpg" />
+    <Content Remove="wwwroot\especies\45.jpg" />
+    <Content Remove="wwwroot\especies\46.jpg" />
+    <Content Remove="wwwroot\especies\47.jpg" />
+    <Content Remove="wwwroot\especies\48.jpg" />
+    <Content Remove="wwwroot\especies\49.jpg" />
+    <Content Remove="wwwroot\especies\5.jpg" />
+    <Content Remove="wwwroot\especies\50.jpg" />
+    <Content Remove="wwwroot\especies\51.jpg" />
+    <Content Remove="wwwroot\especies\52.jpg" />
+    <Content Remove="wwwroot\especies\53.jpg" />
+    <Content Remove="wwwroot\especies\54.jpg" />
+    <Content Remove="wwwroot\especies\55.jpg" />
+    <Content Remove="wwwroot\especies\56.jpg" />
+    <Content Remove="wwwroot\especies\57.jpg" />
+    <Content Remove="wwwroot\especies\58.jpg" />
+    <Content Remove="wwwroot\especies\59.jpg" />
+    <Content Remove="wwwroot\especies\6.jpg" />
+    <Content Remove="wwwroot\especies\60.jpg" />
+    <Content Remove="wwwroot\especies\61.jpg" />
+    <Content Remove="wwwroot\especies\62.jpg" />
+    <Content Remove="wwwroot\especies\63.jpg" />
+    <Content Remove="wwwroot\especies\7.jpg" />
+    <Content Remove="wwwroot\especies\8.jpg" />
+    <Content Remove="wwwroot\especies\9.jpg" />
+    <Content Remove="wwwroot\especies\nophoto.png" />
+    <Content Remove="wwwroot\font-awesome.css" />
+    <Content Remove="wwwroot\fonts\fontawesome-webfont.eot" />
+    <Content Remove="wwwroot\fonts\fontawesome-webfont.svg" />
+    <Content Remove="wwwroot\fonts\fontawesome-webfont.ttf" />
+    <Content Remove="wwwroot\fonts\fontawesome-webfont.woff" />
+    <Content Remove="wwwroot\fonts\fontawesome-webfont.woff2" />
+    <Content Remove="wwwroot\fonts\FontAwesome.otf" />
+    <Content Remove="wwwroot\images\carousel1.jpg" />
+    <Content Remove="wwwroot\images\carousel2.jpg" />
+    <Content Remove="wwwroot\images\carousel3.jpg" />
+    <Content Remove="wwwroot\StyleSheet.css" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="wwwroot\bg.png" />
+    <EmbeddedResource Include="wwwroot\bg2.png" />
+    <EmbeddedResource Include="wwwroot\clases\1.jpg" />
+    <EmbeddedResource Include="wwwroot\clases\1.png" />
+    <EmbeddedResource Include="wwwroot\clases\2.jpg" />
+    <EmbeddedResource Include="wwwroot\clases\2.png" />
+    <EmbeddedResource Include="wwwroot\clases\3.jpg" />
+    <EmbeddedResource Include="wwwroot\clases\3.png" />
+    <EmbeddedResource Include="wwwroot\clases\4.jpg" />
+    <EmbeddedResource Include="wwwroot\clases\4.png" />
+    <EmbeddedResource Include="wwwroot\clases\5.jpg" />
+    <EmbeddedResource Include="wwwroot\clases\5.png" />
+    <EmbeddedResource Include="wwwroot\especies\1.jpg" />
+    <EmbeddedResource Include="wwwroot\especies\10.jpg" />
+    <EmbeddedResource Include="wwwroot\especies\11.jpg" />
+    <EmbeddedResource Include="wwwroot\especies\12.jpg" />
+    <EmbeddedResource Include="wwwroot\especies\13.jpg" />
+    <EmbeddedResource Include="wwwroot\especies\14.jpg" />
+    <EmbeddedResource Include="wwwroot\especies\15.jpg" />
+    <EmbeddedResource Include="wwwroot\especies\16.jpg" />
+    <EmbeddedResource Include="wwwroot\especies\17.jpg" />
+    <EmbeddedResource Include="wwwroot\especies\18.jpg" />
+    <EmbeddedResource Include="wwwroot\especies\19.jpg" />
+    <EmbeddedResource Include="wwwroot\especies\2.jpg" />
+    <EmbeddedResource Include="wwwroot\especies\20.jpg" />
+    <EmbeddedResource Include="wwwroot\especies\21.jpg" />
+    <EmbeddedResource Include="wwwroot\especies\22.jpg" />
+    <EmbeddedResource Include="wwwroot\especies\23.jpg" />
+    <EmbeddedResource Include="wwwroot\especies\24.jpg" />
+    <EmbeddedResource Include="wwwroot\especies\25.jpg" />
+    <EmbeddedResource Include="wwwroot\especies\26.jpg" />
+    <EmbeddedResource Include="wwwroot\especies\27.jpg" />
+    <EmbeddedResource Include="wwwroot\especies\28.jpg" />
+    <EmbeddedResource Include="wwwroot\especies\29.jpg" />
+    <EmbeddedResource Include="wwwroot\especies\3.jpg" />
+    <EmbeddedResource Include="wwwroot\especies\30.jpg" />
+    <EmbeddedResource Include="wwwroot\especies\31.jpg" />
+    <EmbeddedResource Include="wwwroot\especies\32.jpg" />
+    <EmbeddedResource Include="wwwroot\especies\33.jpg" />
+    <EmbeddedResource Include="wwwroot\especies\34.jpg" />
+    <EmbeddedResource Include="wwwroot\especies\35.jpg" />
+    <EmbeddedResource Include="wwwroot\especies\36.jpg" />
+    <EmbeddedResource Include="wwwroot\especies\37.jpg" />
+    <EmbeddedResource Include="wwwroot\especies\38.jpg" />
+    <EmbeddedResource Include="wwwroot\especies\39.jpg" />
+    <EmbeddedResource Include="wwwroot\especies\4.jpg" />
+    <EmbeddedResource Include="wwwroot\especies\40.jpg" />
+    <EmbeddedResource Include="wwwroot\especies\41.jpg" />
+    <EmbeddedResource Include="wwwroot\especies\42.jpg" />
+    <EmbeddedResource Include="wwwroot\especies\43.jpg" />
+    <EmbeddedResource Include="wwwroot\especies\44.jpg" />
+    <EmbeddedResource Include="wwwroot\especies\45.jpg" />
+    <EmbeddedResource Include="wwwroot\especies\46.jpg" />
+    <EmbeddedResource Include="wwwroot\especies\47.jpg" />
+    <EmbeddedResource Include="wwwroot\especies\48.jpg" />
+    <EmbeddedResource Include="wwwroot\especies\49.jpg" />
+    <EmbeddedResource Include="wwwroot\especies\5.jpg" />
+    <EmbeddedResource Include="wwwroot\especies\50.jpg" />
+    <EmbeddedResource Include="wwwroot\especies\51.jpg" />
+    <EmbeddedResource Include="wwwroot\especies\52.jpg" />
+    <EmbeddedResource Include="wwwroot\especies\53.jpg" />
+    <EmbeddedResource Include="wwwroot\especies\54.jpg" />
+    <EmbeddedResource Include="wwwroot\especies\55.jpg" />
+    <EmbeddedResource Include="wwwroot\especies\56.jpg" />
+    <EmbeddedResource Include="wwwroot\especies\57.jpg" />
+    <EmbeddedResource Include="wwwroot\especies\58.jpg" />
+    <EmbeddedResource Include="wwwroot\especies\59.jpg" />
+    <EmbeddedResource Include="wwwroot\especies\6.jpg" />
+    <EmbeddedResource Include="wwwroot\especies\60.jpg" />
+    <EmbeddedResource Include="wwwroot\especies\61.jpg" />
+    <EmbeddedResource Include="wwwroot\especies\62.jpg" />
+    <EmbeddedResource Include="wwwroot\especies\63.jpg" />
+    <EmbeddedResource Include="wwwroot\especies\7.jpg" />
+    <EmbeddedResource Include="wwwroot\especies\8.jpg" />
+    <EmbeddedResource Include="wwwroot\especies\9.jpg" />
+    <EmbeddedResource Include="wwwroot\especies\nophoto.png" />
+    <EmbeddedResource Include="wwwroot\font-awesome.css" />
+    <EmbeddedResource Include="wwwroot\fonts\fontawesome-webfont.eot" />
+    <EmbeddedResource Include="wwwroot\fonts\fontawesome-webfont.svg" />
+    <EmbeddedResource Include="wwwroot\fonts\fontawesome-webfont.ttf" />
+    <EmbeddedResource Include="wwwroot\fonts\fontawesome-webfont.woff" />
+    <EmbeddedResource Include="wwwroot\fonts\fontawesome-webfont.woff2" />
+    <EmbeddedResource Include="wwwroot\fonts\FontAwesome.otf" />
+    <EmbeddedResource Include="wwwroot\images\carousel1.jpg" />
+    <EmbeddedResource Include="wwwroot\images\carousel2.jpg" />
+    <EmbeddedResource Include="wwwroot\images\carousel3.jpg" />
+    <EmbeddedResource Include="wwwroot\StyleSheet.css" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.11" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.11">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="7.0.9" />
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="7.0.0" />
+  </ItemGroup>
+
+</Project>

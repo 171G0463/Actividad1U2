@@ -1,0 +1,18 @@
+﻿@model Actividad1U2.Models.ViewModels.InformeViewModel
+@{
+ Layout = "Layout";}
+<div class="especieficha1">
+    <img src="~/especies/(@Model.Nombre).jpg" />
+    <div>
+        <h1></h1>
+        <p><label>Clase:</label><a href="~/especies/@Model.Clase">Mamíferos</a></p>
+        <p><label>Peso:</label>@Model.Peso</p>
+        <p><label>Tamaño:</label>@Model.Tamaño</p>
+        <p><label>Habitat:</label>@Model.Habitad</p>
+        <p><label>Descripción:</label>@Model.</p>
+        <p><label>Descripción:</label></p>
+        <p>@Model.descripcion</p>
+    </div>
+
+    <a href="~/especies">Regresar</a>
+</div>
